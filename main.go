@@ -22,7 +22,7 @@ func main() {
 	bar := charts.NewBar()
 	// set some global options like Title/Legend/ToolTip or anything else
 	bar.SetGlobalOptions(charts.WithTitleOpts(opts.Title{
-		Title:    "First bar chart",
+		Title:    "First bar chart of E-chart",
 		Subtitle: "It's extremely easy to use, right?",
 	}))
 
